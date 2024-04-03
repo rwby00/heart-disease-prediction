@@ -10,7 +10,7 @@ def predict():
         "data": [0.0, 120.0, 74.0, 18.0, 63.0, 30.5, 0.285, 26.0],
     }
     response = requests.post(
-        "http://tiennkapp.org.m1/preloaded_xgb",
+        "http://haintapp.org.m1/preloaded_xgb",
         headers={
             "accept": "application/json",
         },

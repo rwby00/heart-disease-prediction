@@ -7,7 +7,7 @@ pipeline {
     }
 
     environment{
-        registry = 'tiennguyenkha/diabetes_predicton'
+        registry = 'rwby00/diabetes_predicton'
         registryCredential = 'dockerhub'
     }
 
