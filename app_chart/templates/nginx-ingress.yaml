@@ -8,7 +8,7 @@ metadata:
     kubernetes.io/ingress.class: "nginx" # which can be replaced by gce, gce-internal or istio
 spec:
   rules:
-  - host: tiennkapp.org.m1
+  - host: haintapp.org.m1
     http:
       paths:
       - path: /docs
